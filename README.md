@@ -3,7 +3,7 @@
 Export Outlook Web mail to local `.eml` files with the original MIME payload intact, including attachments. Runs entirely in the browser. No backend. No PST. No desktop Outlook.
 
 Works in two modes:
-- as a userscript installed from GreasyFork or any standard userscript manager (persists via the manager and is injected on matching pages each load)
+- as a userscript installed from [GreasyFork](https://greasyfork.org/en/scripts/572163-outlook-eml-exporter-local-archive) or any standard userscript manager (persists via the manager and is injected on matching pages each load)
 - as a one-off script pasted directly into the DevTools console on Outlook Web (temporary — will be removed on reload)
 
 > Requires a Chromium-based browser. The script depends on the File System Access API (`showDirectoryPicker()`).
@@ -46,7 +46,7 @@ Works in two modes:
 
 ### Userscript
 
-Install the script from GreasyFork, or load the `.user.js` file into any userscript manager. The script uses `@grant none`, so it does not depend on manager-specific APIs. The userscript manager will inject the script on matching pages each time the page loads; disable/uninstall it in the manager to remove persistence.
+Install the script from GreasyFork ([see here](https://greasyfork.org/en/scripts/572163-outlook-eml-exporter-local-archive)), or load the `.user.js` file into any userscript manager. The script uses `@grant none`, so it does not depend on manager-specific APIs. The userscript manager will inject the script on matching pages each time the page loads; disable/uninstall it in the manager to remove persistence.
 
 ### DevTools console
 
