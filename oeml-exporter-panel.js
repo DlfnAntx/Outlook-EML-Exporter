@@ -2,7 +2,7 @@
 // @name         Outlook EML Exporter (Local Archive)
 // @namespace    https://github.com/DlfnAntx/Outlook-EML-Exporter
 // @version      1.0.0
-// @description  Export Outlook Web mail to local .eml files with attachments using Graph or Outlook APIs.
+// @description  Export Outlook Web mail to local .eml files with attachments using Graph or Outlook APIs. Recursive, resumable, and easy to use.
 // @author       DlfnAntx
 // @license      MIT
 // @match        https://outlook.office.com/*
